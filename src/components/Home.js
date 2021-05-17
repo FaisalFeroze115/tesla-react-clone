@@ -5,10 +5,62 @@ import Section from "./Section"
 const Home = () => {
     return (
         <Container>
-            <Section/>
-            <Section/>
-            <Section/>
-            <Section/>
+            <Section
+                title="Model S"
+                description="Order Online for Touchless Delivery"
+                backgroundImg="model-s.jpg"
+                leftButtonText="Custom Order"
+                rightButtonText="Existing Inventory"
+            />
+
+            <Section
+                title="Model Y"
+                description="Order Online for Touchless Delivery"
+                backgroundImg="model-y.jpg"
+                leftButtonText="Custom Order"
+                rightButtonText="Existing Inventory"
+            />
+
+            <Section
+                title="Model 3"
+                description="Order Online for Touchless Delivery"
+                backgroundImg="model-3.jpg"
+                leftButtonText="Custom Order"
+                rightButtonText="Existing Inventory"
+            />
+
+            <Section
+                title="Model X"
+                description="Order Online for Touchless Delivery"
+                backgroundImg="model-x.jpg"
+                leftButtonText="Custom Order"
+                rightButtonText="Existing Inventory"
+            />
+
+            <Section
+                title="Lowest Cost Solar Panels"
+                description="Money-back guarantee"
+                backgroundImg="solar-panel.jpg"
+                leftButtonText="Order Now"
+                rightButtonText="Learn More"
+            />
+
+            <Section
+                title="Solar for New Roofs"
+                description="Money-back guarantee"
+                backgroundImg="solar-roof.jpg"
+                leftButtonText="Order Now"
+                rightButtonText="Learn More"
+            />
+
+            <Section
+                title="Accessories"
+                description=""
+                backgroundImg="accessories.jpg"
+                leftButtonText="Shop Now"
+                rightButtonText=""
+            />
+
         </Container>
     )
 }
